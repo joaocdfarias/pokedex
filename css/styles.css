@@ -1,0 +1,211 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(200, 76, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 76, 48, 1) 0%,
+    rgba(141, 56, 192, 1) 100%
+  );
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: #95ed95;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(250, 250, 250);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.grass {
+  background: rgb(173, 227, 173);
+  background: linear-gradient(
+    29deg,
+    rgba(173, 227, 173, 1) 0%,
+    rgba(144, 238, 144, 1) 100%
+  );
+}
+
+.fire {
+  background: rgb(255, 194, 82);
+  background: linear-gradient(
+    29deg,
+    rgba(255, 194, 82, 1) 0%,
+    rgb(255, 123, 0) 100%
+  );
+}
+
+.water {
+  background: rgb(133, 171, 241);
+  background: linear-gradient(
+    29deg,
+    rgba(133, 171, 241, 1) 0%,
+    rgba(100, 149, 237, 1) 100%
+  );
+}
+
+.bug {
+  background: rgb(231, 224, 140);
+  background: linear-gradient(
+    29deg,
+    rgba(231, 224, 140, 1) 0%,
+    rgba(189, 183, 107, 1) 100%
+  );
+}
+
+.normal {
+  background: rgb(204, 216, 231);
+  background: linear-gradient(
+    29deg,
+    rgba(204, 216, 231, 1) 0%,
+    rgba(176, 196, 222, 1) 100%
+  );
+}
+
+.poison {
+  background: rgb(202, 252, 126);
+  background: linear-gradient(
+    29deg,
+    rgba(202, 252, 126, 1) 0%,
+    rgba(173, 255, 47, 1) 100%
+  );
+}
+
+.electric {
+  background: rgb(224, 191, 106);
+  background: linear-gradient(
+    29deg,
+    rgba(224, 191, 106, 1) 0%,
+    rgb(245, 190, 52) 100%
+  );
+}
+
+.ground {
+  background: rgb(255, 188, 164);
+  background: linear-gradient(
+    29deg,
+    rgba(255, 188, 164, 1) 0%,
+    rgba(255, 127, 80, 1) 100%
+  );
+}
+
+.fairy {
+  background: rgb(241, 179, 179);
+  background: linear-gradient(
+    29deg,
+    rgba(241, 179, 179, 1) 0%,
+    rgba(240, 128, 128, 1) 100%
+  );
+}
+
+.fighting {
+  background: rgb(238, 238, 238);
+  background: linear-gradient(
+    29deg,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(211, 211, 211, 1) 100%
+  );
+}
+
+.psychic {
+  background: rgb(185, 84, 185);
+  background: linear-gradient(
+    29deg,
+    rgba(185, 84, 185, 1) 0%,
+    rgb(192, 38, 192) 100%
+  );
+}
+
+.rock {
+  background: rgb(242, 232, 242);
+  background: linear-gradient(
+    29deg,
+    rgba(242, 232, 242, 1) 0%,
+    rgba(216, 191, 216, 1) 100%
+  );
+}
+
+.ghost {
+  background: rgb(150, 139, 219);
+  background: linear-gradient(
+    29deg,
+    rgba(150, 139, 219, 1) 0%,
+    rgba(106, 90, 205, 1) 100%
+  );
+}
+
+.ice {
+  background: rgb(215, 241, 241);
+  background: linear-gradient(
+    29deg,
+    rgba(215, 241, 241, 1) 0%,
+    rgba(175, 238, 238, 1) 100%
+  );
+}
+
+.dragon {
+  background: rgb(252, 232, 213);
+  background: linear-gradient(
+    29deg,
+    rgba(252, 232, 213, 1) 0%,
+    rgba(255, 218, 185, 1) 100%
+  );
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.pokemon-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pokemon-ul img {
+  width: 200px;
+  background: white;
+  border-radius: 100px;
+}
+
+.pokemon-ul li {
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 10px 10px 27px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 27px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px -14px rgba(0, 0, 0, 0.75);
+}
+
+.pokemon-ul li h2 {
+  text-transform: uppercase;
+  margin-block-start: 20px;
+  margin-block-end: 0;
+}
+
+.pokemon-ul li p {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+li {
+  list-style: none;
+}
